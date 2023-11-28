@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection";
+import OnlyTheBestSection from "../components/OnlyTheBestSection";
 import OurStorySection from "../components/OurStorySection";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <HeroSection />
       <OurStorySection />
+      <OnlyTheBestSection />
     </div>
   );
 };
