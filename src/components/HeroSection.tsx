@@ -24,10 +24,10 @@ const HeroSection = () => {
               dolor.
             </p>
             <div className="mt-10 flex gap-5">
-              <button className="px-2 border-[1.5px] border-white uppercase text-sm">
+              <button className="px-3 py-1 border-[1.5px] border-white uppercase text-sm">
                 View Menu
               </button>
-              <button className="px-2 bg-yellow-500 uppercase text-sm tracking-wide">
+              <button className="px-3 py-1 bg-yellow-500 uppercase text-sm tracking-wide">
                 Reservation
               </button>
             </div>
