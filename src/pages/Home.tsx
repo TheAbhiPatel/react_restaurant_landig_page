@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection";
+import NewsAndEventSection from "../components/NewsAndEventSection";
 import OnlyTheBestSection from "../components/OnlyTheBestSection";
 import OurStorySection from "../components/OurStorySection";
 import ProductsSection from "../components/ProductsSection";
@@ -12,6 +13,7 @@ const Home = () => {
       <OnlyTheBestSection />
       <ProductsSection />
       <TestimonialsSection />
+      <NewsAndEventSection />
     </div>
   );
 };

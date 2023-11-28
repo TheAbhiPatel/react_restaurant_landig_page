@@ -89,3 +89,35 @@ export const testimonials: ITetimonials[] = [
     rating: 4,
   },
 ];
+
+/** =================== News Data =================== */
+
+export interface INews {
+  title: string;
+  category: string;
+  discription: string;
+  image: string;
+}
+export const news: INews[] = [
+  {
+    title: "Something new in Mark",
+    category: "Category",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae   fugit suscipit qui, doloremque beatae quo reprehenderit accusantium  voluptates totam",
+    image: "news.jpg",
+  },
+  {
+    title: "Something new in Mark",
+    category: "Category",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae   fugit suscipit qui, doloremque beatae quo reprehenderit accusantium  voluptates totam",
+    image: "news.jpg",
+  },
+  {
+    title: "Something new in Mark",
+    category: "Category",
+    discription:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae   fugit suscipit qui, doloremque beatae quo reprehenderit accusantium  voluptates totam something extra and the some anai ",
+    image: "news.jpg",
+  },
+];
