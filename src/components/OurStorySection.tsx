@@ -1,6 +1,6 @@
 const OurStorySection = () => {
   return (
-    <section className="w-full h-[50rem] flex justify-center pt-20">
+    <section className="w-full h-[45rem] flex justify-center pt-20">
       <div className="flex w-[85%] justify-between">
         <div className="w-[50%] mt-5">
           <div className="relative">
